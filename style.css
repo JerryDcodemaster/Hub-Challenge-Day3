@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Raleway:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Crimson Text', serif;
+}
+/* nav */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px darkgray;
+    height: 100px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 999;
+    transition: 0.5s all ease;
+    background-color: rgba(255, 255, 255, .98);
+    color: #000;
+}
+
+.first {
+    margin: 50px;
+}
+
+.items {
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.boo {
+    color: rgb(7, 117, 160);
+}
+
+.fa-solid {
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.second {
+    margin-right: 10px;
+    padding: 20px;
+}
+
+/* .second span {
+    background-color: red;
+} */
+
+/* main */
+.main {
+    margin: 150px 0 50px;
+}
+
+header {
+    margin: 20px 60px;
+}
+
+.get {
+    margin: 20px 100px;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+/* contact */
+.contact {
+    margin: 40px 170px;
+}
+
+.name {
+    width: 35rem;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    font-size: 25px;
+    outline: none;
+}
+
+.email, .phone {
+    width: 16rem;
+    padding: 15px;
+    margin: 5px 10px 20px 0;
+    font-size: 25px;
+    outline: none;
+}
+ 
+.arua {
+    width: 35rem;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    font-size: 25px;
+    outline: none;
+}
+
+/* Appps */
+.app {
+    margin: 50px 100px;
+}
+
+.images {
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.images > div {
+    border-style: dotted;
+    margin-left: 20px;
+    padding: 20px;
+    border-color: rgb(7, 117, 160);
+}
+
+.images > div img {
+    border-radius: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.images > div:hover {
+    border-color: rgb(7, 117, 160);
+    transition: .2s ease-in-out;
+    border-style: solid;
+    /* border-width: 4px; */
+}
+
+.txt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(7, 117, 160);
+}
+/* services */
+.service {
+    margin: 150px 0 100px;
+    font-size: 25px;
+}
+
+.opt {
+   margin: 30px 70px 30px;
+}
+
+.opt span {
+    margin-left: 10px;
+}
+
+.off {
+    border-color: rgb(7, 117, 160);
+    /* padding: 20px; */
+}
+
+/* budget */
+.budget {
+    margin: 0 0 50px;
+    font-size: 25px;
+}
+
+/* guide */
+.guide {
+    margin: 20px 70px;
+}
+
+.guide input {
+    margin-right: 10px;
+}
+
+.guide  button {
+    margin: 30px 0 10px 5px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(7, 117, 160);
+    border-style: none;
+}
+
+.guide button:hover {
+    cursor: pointer;
+}
+
+.high a {
+    color: rgb(7, 117, 160);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.origin {
+   margin-left: 10px;
+   font-weight: lighter;
+}
+
+.guide span {
+    font-size: 25px;
+}
+
+.ema a{
+    color: rgb(7, 117, 160);
+    /* margin-top: 15px; */
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Countries */
+.count {
+    margin: 30px 0;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+}
+
+.count img {
+    width: 15rem;
+    margin: 20px 0;
+}
+
+.count span {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(0, 0, 0, 0.678);
+}
+
+.count h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 22px;
+}
+
+#foot {
+    margin-top: -80px;
+}
+
+#up {
+    margin-bottom: 50px;
+}
+
+.a {
+    margin-bottom: 10px;
+}
+
+.a1 {
+    margin-bottom: 15px;
+    margin-left: 17px;
+}
+
+.b {
+    margin-bottom: 10px;
+}
+
+.b2 {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.c {
+    margin-bottom: 10px;
+}
+
+.c3 {
+    margin-bottom: 15px;
+    margin-right: 17px;
+}
+
+.united {
+    margin-bottom: 60px;
+}
+
+.d {
+    margin-bottom: 10px;
+}
+
+.d4 {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.mos {
+    margin-bottom: 15px;
+}
+
+.cre, .opo {
+    margin-right: 20px;
+}
+
+.cre {
+    margin-bottom: 20px;
+}
+
+.zak{
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.kak {
+    margin-right: 20px;
+}
+
+.six {
+    margin-right: 30px;
+}
